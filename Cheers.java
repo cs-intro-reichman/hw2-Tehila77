@@ -11,9 +11,9 @@ public class Cheers {
                 String checkWord="AEFHILMNORSX";
                 if(theWord.charAt('i')==checkWord.charAt('i'))
                 {
-                 System.out.println("Give me an "+ theWord.charAt('i'));     
+                 System.out.println("Give me an "+ theWord.charAt('i')+": "+ theWord.charAt('i')+"! ");     
                 }
-                else System.out.println("Give me a "+ theWord.charAt('i'));
+                else System.out.println("Give me a "+ theWord.charAt('i')+": "+ theWord.charAt('i')+"! ");
                 }
             }
             /* 

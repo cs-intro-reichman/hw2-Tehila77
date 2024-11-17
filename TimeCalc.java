@@ -7,8 +7,17 @@ public class TimeCalc {
     int totalHours=totalMinutes/60;
     int newHours=totalHours%24;
     int newMinutes= totalMinutes-(totalHours*60);
-    if(newMinutes<10)System.out.println(newHours+":0"+newMinutes);
-    else System.out.println(newHours+":"+newMinutes);
+    //if the mintes <10 add '0' to the print
+    String finalMinutes=" ";
+    if(newMinutes<10)finalMinutes="0"+newMinutes;
+    else finalMinutes=""+newMinutes;
+    //if the mintes <10 add '0' to the print
+    String finalHours=" ";
+    if(newHours<10)finalHours="0"+newHours;
+    else finalHours=""+newHours;
+     System.out.println(finalHours+":"+finalMinutes);
+
+
 
     }
 }

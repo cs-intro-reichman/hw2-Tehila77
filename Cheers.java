@@ -19,5 +19,4 @@ public class Cheers {
         for (int i = 0; i < countCherring; i++)
             System.out.println(theWord + "!!!");
     }
-
 }

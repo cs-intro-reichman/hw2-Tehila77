@@ -16,8 +16,5 @@ public class TimeCalc {
     if(newHours<10)finalHours="0"+newHours;
     else finalHours=""+newHours;
      System.out.println(finalHours+":"+finalMinutes);
-
-
-
     }
 }

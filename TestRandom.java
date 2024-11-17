@@ -12,7 +12,5 @@ public  class  TestRandom {
 	   }
 	   System.out.println("> 0.5:  "+countBig+" times");
 	   System.out.println("<= 0.5:  "+countSmall+" times");
-
-
 	}
 }

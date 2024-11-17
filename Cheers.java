@@ -9,9 +9,9 @@ public class Cheers {
         for (int i = 0; i < theWord.length(); i++) {
             int theChar = theWord.charAt(i);
             if (checkWord.indexOf(theChar) >= 0) {
-                System.out.println("Give me an " + theWord.charAt(i) + ": " + theWord.charAt(i) + "! ");
+                System.out.println("Give me an " + theWord.charAt(i) + ": " + theWord.charAt(i) + "!");
             } else {
-                System.out.println("Give me a  " + theWord.charAt(i) + ": " + theWord.charAt(i) + "! ");
+                System.out.println("Give me a  " + theWord.charAt(i) + ": " + theWord.charAt(i) + "!");
             }
         }
         // prith the part 2

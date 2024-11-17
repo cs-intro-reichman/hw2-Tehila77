@@ -6,7 +6,7 @@ public  class  TestRandom {
 	   int countSmall=0;//will count the numbers below 0.5
 	   for(int i=0;i<limit;i++)
 	   {
-		double numberRandom=(int)(Math.random()*1);
+		double numberRandom=(Math.random());
 		if (numberRandom>0.5)countBig++;
 		else countSmall++;
 	   }

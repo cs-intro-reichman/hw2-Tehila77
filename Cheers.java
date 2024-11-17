@@ -17,7 +17,7 @@ public class Cheers {
         // prith the part 2
         System.out.println("What does that spell?");
         for (int i = 0; i < countCherring; i++)
-            System.out.println(theWord + " ! ! !");
+            System.out.println(theWord + "!!!");
     }
 
 }
